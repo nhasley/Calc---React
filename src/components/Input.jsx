@@ -1,11 +1,9 @@
 import React from 'react'
 import './Input.css'
 
-const Input = () => {
+const Input = (props) => {
     return (
-        <div>
-            
-        </div>
+        <div className="input">{props.input}</div>
     )
 }
 
